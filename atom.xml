@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-27T16:19:42.380Z</updated>
+  <updated>2024-01-27T17:29:00.483Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title></title>
+    <title>算法:滑动窗口</title>
     <link href="http://example.com/2024/01/28/clip_windows/"/>
     <id>http://example.com/2024/01/28/clip_windows/</id>
     <published>2024-01-27T16:06:08.990Z</published>
-    <updated>2024-01-27T16:19:42.380Z</updated>
+    <updated>2024-01-27T17:29:00.483Z</updated>
     
     <content type="html"><![CDATA[<h1 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h1><h3 id="最小窗口："><a href="#最小窗口：" class="headerlink" title="最小窗口："></a>最小窗口：</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//i, j分别为窗口的左右指针</span></span><br><span class="line"><span class="keyword">while</span> (j &lt; 最大长度) &#123;</span><br><span class="line">    <span class="keyword">while</span> (满足条件) </span><br><span class="line">        窗口左边界右移</span><br><span class="line">    更新result</span><br><span class="line">    j ++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://leetcode.cn/problems/minimum-window-substring/description/">lc.76 最小覆盖子串</a></p><h3 id="最大窗口"><a href="#最大窗口" class="headerlink" title="最大窗口"></a>最大窗口</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//i, j分别为窗口的左右指针</span></span><br><span class="line"><span class="keyword">while</span> (j &lt; 最大长度) &#123;</span><br><span class="line">    <span class="keyword">while</span> (不满足条件) </span><br><span class="line">        窗口左边界右移</span><br><span class="line">    更新result</span><br><span class="line">    j ++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://leetcode.cn/problems/fruit-into-baskets/description/">lc.904 水果成篮</a></p>]]></content>
     
