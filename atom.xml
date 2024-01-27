@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Tsundere&#39;s bolg</title>
+  
+  <subtitle>hello world.</subtitle>
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2024-01-27T16:19:42.380Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Tsundere</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2024/01/28/clip_windows/"/>
+    <id>http://example.com/2024/01/28/clip_windows/</id>
+    <published>2024-01-27T16:06:08.990Z</published>
+    <updated>2024-01-27T16:19:42.380Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="滑动窗口"><a href="#滑动窗口" class="headerlink" title="滑动窗口"></a>滑动窗口</h1><h3 id="最小窗口："><a href="#最小窗口：" class="headerlink" title="最小窗口："></a>最小窗口：</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//i, j分别为窗口的左右指针</span></span><br><span class="line"><span class="keyword">while</span> (j &lt; 最大长度) &#123;</span><br><span class="line">    <span class="keyword">while</span> (满足条件) </span><br><span class="line">        窗口左边界右移</span><br><span class="line">    更新result</span><br><span class="line">    j ++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://leetcode.cn/problems/minimum-window-substring/description/">lc.76 最小覆盖子串</a></p><h3 id="最大窗口"><a href="#最大窗口" class="headerlink" title="最大窗口"></a>最大窗口</h3><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//i, j分别为窗口的左右指针</span></span><br><span class="line"><span class="keyword">while</span> (j &lt; 最大长度) &#123;</span><br><span class="line">    <span class="keyword">while</span> (不满足条件) </span><br><span class="line">        窗口左边界右移</span><br><span class="line">    更新result</span><br><span class="line">    j ++;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><a href="https://leetcode.cn/problems/fruit-into-baskets/description/">lc.904 水果成篮</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;滑动窗口&quot;&gt;&lt;a href=&quot;#滑动窗口&quot; class=&quot;headerlink&quot; title=&quot;滑动窗口&quot;&gt;&lt;/a&gt;滑动窗口&lt;/h1&gt;&lt;h3 id=&quot;最小窗口：&quot;&gt;&lt;a href=&quot;#最小窗口：&quot; class=&quot;headerlink&quot; title=&quot;最小窗口：&quot;&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://example.com/2024/01/07/house-price/"/>
+    <id>http://example.com/2024/01/07/house-price/</id>
+    <published>2024-01-07T08:27:46.045Z</published>
+    <updated>2024-01-07T08:32:39.371Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="房价预测"><a href="#房价预测" class="headerlink" title="房价预测"></a>房价预测</h1>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;房价预测&quot;&gt;&lt;a href=&quot;#房价预测&quot; class=&quot;headerlink&quot; title=&quot;房价预测&quot;&gt;&lt;/a&gt;房价预测&lt;/h1&gt;</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://example.com/2023/12/30/hello-world/"/>
+    <id>http://example.com/2023/12/30/hello-world/</id>
+    <published>2023-12-30T05:48:08.395Z</published>
+    <updated>2023-12-30T05:48:08.395Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
