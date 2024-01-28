@@ -5,3 +5,6 @@ http://example.com/categories/index.html
 http://example.com/2024/01/07/house-price/
 http://example.com/2023/12/30/hello-world/
 http://example.com/
+http://example.com/tags/%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3/
+http://example.com/tags/cpp/
+http://example.com/categories/Algorithm/
